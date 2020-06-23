@@ -1,0 +1,227 @@
+/* ALTERAR PARA TODOS OS ELEMENTOS */
+html * {
+    /* RESETAR A MARGEM */
+    margin: 0px;
+    /* LARGURA MÁXIMA DOS ELEMENTOS fotos x margens */
+    max-width: 100%;
+}
+
+body {
+    /* COR DE FUNDO */
+    background-color: #525050;
+}
+
+.logotipo {
+      /* divide em 2 - logotipo + nome da agencia */
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 40px;
+    font-size: 30pt;
+    font-family: impact,fantasy;
+    display: flex;
+    /* Alinhamento horizontal */
+    justify-content: left;
+    /* Alinhamento vertical */
+    align-items: center;
+    /* MARGEM */
+    margin: 10px;
+}
+
+#menu {
+    background-color: #000000;
+    margin-bottom: 20px;
+    border-top: 10px solid #797575;
+    border-bottom: 10px solid #797575;
+    padding: 11px;
+    
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* ALINHAMENTO CENTRAL DO TEXTO */
+    text-align: center;
+}
+#menu a {
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+/*pseudo seletor - para alterar a propriedade de um seletor*/
+#menu a:hover {
+    color: white;
+    text-transform: lowercase;
+}
+
+.sistema {
+    /* MARGEM Da Foto Sistema Solar */
+    margin: 10px;
+    display: flex;
+    /* Alinhamento horizontal */
+    justify-content: left;
+    /* Alinhamento vertical */
+    align-items: center;
+
+    font-family: sans-serif;
+    font-size: 13pt;
+      
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 2 COLUNAS */
+    grid-template-columns: repeat(3, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 20px;
+}
+
+#escolha_roteiros {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 12pt;
+    
+    display: flex;
+    /* Alinhamento horizontal */
+    justify-content: center;
+    /* Alinhamento vertical */
+    align-items: center;
+
+    background-color: #000000;
+    margin-bottom: 5px;
+    border-top: 10px solid #797575;
+    border-bottom: 10px solid #797575;
+    padding: 10px;
+}
+#escolha_roteiros a {
+    color: #ffffff;
+}
+/*pseudo seletor - para alterar a propriedade de um seletor*/
+#escolha_roteiros a:hover {
+    color: #e7d90e;
+    text-transform: lowercase;
+}
+
+.roteiros {
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 3 COLUNAS */
+    grid-template-columns: repeat(3, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 5px;
+}
+
+.item{
+    /* COR DE FUNDO */
+    background-color: #000000;
+    /* FONTE */
+    font-family: sans-serif;
+    /* LETRAS MAIÚSCULAS */
+    text-transform: uppercase;
+    /* MARGEM */
+    margin: 10px;
+    /* COR DA FONTE */
+    color: white;
+    /* BORDA SUPERIOR */
+    border-top: 5px solid #797575;
+    border-bottom: 5px solid #797575;
+
+    /* BORDAS ARREDONDADAS */
+    border-radius: 1%;
+    /* TEXTO CENTRALIZADO */
+    text-align: center;
+
+    display: grid;
+
+    /* Alinhamento horizontal */
+    justify-content: center;
+    /* Alinhamento vertical */
+    align-items: center;
+
+}
+
+.item-img {
+    height: 400px;
+    width: 400px;
+    object-fit: cover;
+
+    /* Alinhamento horizontal */
+    justify-content: center;
+}
+
+.item-h2 {
+    display: flex;
+    /* Alinhamento horizontal */
+    justify-content: center;
+    /* Alinhamento vertical */
+    align-items: center;
+    height: 50px;
+    border-top: 3px solid #797575;
+
+    object-fit: cover;
+}
+
+.rodape {
+    background-color: #525050;
+    border-top: 5px solid #797575;
+    padding: 05px;
+    font-family: sans-serif;
+    font-size: 10pt;
+    color: white;
+    margin: 20px;
+}
+
+
+.contato {
+    /* MARGEM Da Foto Sistema Solar */
+    margin: 20px;
+    display: flex;
+    /* Alinhamento horizontal */
+    justify-content: left;
+    /* Alinhamento vertical */
+    align-items: center;
+
+    font-family: sans-serif;
+    font-size: 14pt;
+      
+    /* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+    display: grid;
+    /* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 2 COLUNAS */
+    grid-template-columns: repeat(2, 1fr);
+    /* ESPAÇAMENTO ENTRE COLUNAS E LINHAS DO GRID */
+    gap: 50px;
+}
+
+#planeta {
+    color: #ffffff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 12pt;
+    
+    display: flex;
+    /* Alinhamento horizontal */
+    justify-content: center;
+    /* Alinhamento vertical */
+    align-items: center;
+
+    background-color: #000000;
+    margin-bottom: 5px;
+    border-top: 10px solid #797575;
+    border-bottom: 10px solid #797575;
+    padding: 10px;
+}
+
+.filme_planeta {
+    margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+    justify-content: center;
+    
+/* ATIVAR O MODO GRID (LINHAS E COLUNAS) */
+display: grid;
+/* ELEMENTOS DENTRO DA CLASSE PRINCIPAL NO FORMATO DE 2 COLUNAS */
+grid-template-columns: repeat(1 1fr);
+
+
+
+
+}
+
